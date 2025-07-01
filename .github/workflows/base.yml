@@ -1,0 +1,10 @@
+name: Testiko
+on: workflow_dispatch
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World"
+      - name: Print Goodbye
+        run: echo "Goodbye"
